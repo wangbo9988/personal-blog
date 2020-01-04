@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,18 +24,18 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 
-<body style="">
+<body>
 <header id="header">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 overflow">
                 <div class="social-icons pull-right">
                     <ul class="nav nav-pills">
-                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                        <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href=""><i class="fa fa-dribbble"></i></a></li>
-                        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href=""><i class="fa fa-wechat"></i></a></li>
+                        <li><a href=""><i class="fa fa-qq"></i></a></li>
+                        <li><a href=""><i class="fa fa-github"></i></a></li>
+                        <li><a href=""><i class="fa fa-file"></i></a></li>
+                        <li><a href=""><i class="fa fa-user"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -58,47 +58,37 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="dropdown active"><a href="#">Pages <i class="fa fa-angle-down"></i></a>
+                    <li><a href="/">首页</a></li>
+                    <li class="dropdown active"><a href="/toAboutus">页面<i class="fa fa-angle-down"></i></a>
                         <ul role="menu" class="sub-menu">
-                            <li><a class="active" href="aboutus.html">About</a></li>
-                            <li><a href="aboutus2.html">About 2</a></li>
-                            <li><a href="service.html">Services</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
-                            <li><a href="contact.html">Contact us</a></li>
-                            <li><a href="contact2.html">Contact us 2</a></li>
-                            <li><a href="404.html">404 error</a></li>
-                            <li><a href="coming-soon.html">Coming Soon</a></li>
+                            <li><a class="active" href="/toAboutus">个人简介</a></li>
+                            <li><a href="/toService">服务</a></li>
+                            <li><a href="/toContact">联系我</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="blog.html">Blog <i class="fa fa-angle-down"></i></a>
+                    <li class="dropdown"><a href="/toBlog">博客<i class="fa fa-angle-down"></i></a>
                         <ul role="menu" class="sub-menu">
-                            <li><a href="blog.html">Blog Default</a></li>
-                            <li><a href="blogtwo.html">Timeline Blog</a></li>
-                            <li><a href="blogone.html">2 Columns + Right Sidebar</a></li>
-                            <li><a href="blogthree.html">1 Column + Left Sidebar</a></li>
-                            <li><a href="blogfour.html">Blog Masonary</a></li>
-                            <li><a href="blogdetails.html">Blog Details</a></li>
+                            <li><a href="/toBlog">分类/标签</a></li>
+                            <li><a href="/toBlogTimeline">时间轴</a></li>
+                            <li><a href="/toBlogAll">全部</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="portfolio.html">Portfolio <i class="fa fa-angle-down"></i></a>
+                    <li class="dropdown"><a href="/toPortfolio">作品<i class="fa fa-angle-down"></i></a>
                         <ul role="menu" class="sub-menu">
-                            <li><a href="portfolio.html">Portfolio Default</a></li>
-                            <li><a href="portfoliofour.html">Isotope 3 Columns + Right Sidebar</a></li>
-                            <li><a href="portfolioone.html">3 Columns + Right Sidebar</a></li>
-                            <li><a href="portfoliotwo.html">3 Columns + Left Sidebar</a></li>
-                            <li><a href="portfoliothree.html">2 Columns</a></li>
-                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                            <li><a href="/toPortfolio">分类/标签</a></li>
+                            <li><a href="/toPortfolioCode">源码</a></li>
+                            <li><a href="/toPortfolioResources">资源</a></li>
+                            <li><a href="/toPricing">排行</a></li>
                         </ul>
                     </li>
-                    <li><a href="shortcodes.html ">Shortcodes</a></li>
+                    <li><a href="/toLogin">登录/注册</a></li>
                 </ul>
             </div>
             <div class="search">
                 <form role="form">
                     <i class="fa fa-search"></i>
                     <div class="field-toggle">
-                        <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                        <input type="text" class="search-form" autocomplete="off" placeholder="搜索">
                     </div>
                 </form>
             </div>
@@ -106,6 +96,7 @@
     </div>
 </header>
 <!--/#header-->
+
 
 <section id="page-breadcrumb">
     <div class="vertical-center sun">
@@ -123,60 +114,47 @@
 </section>
 <!--/#page-breadcrumb-->
 
-<section id="company-information" class="padding wow fadeIn animated" data-wow-duration="1000ms" data-wow-delay="300ms"
-         style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeIn;">
+<section id="about-company" class="padding-top wow fadeInUp" data-wow-duration="400ms" data-wow-delay="400ms">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
-                <img src="images/aboutus/1.png" class="img-responsive" alt="">
-            </div>
-            <div class="col-sm-6 padding-top">
-                <p>Shoulder bresaola sausage consequat ground round duis excepteur exercitation landjaeger sunt. Duis
-                    officia sed frankfurter dolore pastrami tenderloin.</p>
-                <p>When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                    survived not only five centuries.</p>
+            <div class="col-sm-12 text-center">
+                <img src="images/aboutus/5.png" class="margin-bottom" alt="">
+                <h1 class="margin-bottom">About Our Company</h1>
+                <p>Pork chop duis eu pig, labore sausage venison. Shankle fugiat duis, filet mignon tri-tip venison beef shank ribeye<br /> aliqua cillum dolore sed do in.</p>
             </div>
         </div>
     </div>
 </section>
+<!--/#about-company-->
 
 <section id="services">
     <div class="container">
         <div class="row">
-            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms"
-                 style="visibility: hidden; animation-duration: 1000ms; animation-delay: 300ms; animation-name: none;">
+            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                 <div class="single-service">
-                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms"
-                         style="visibility: hidden; animation-duration: 500ms; animation-delay: 300ms; animation-name: none;">
+                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
                         <img src="images/home/icon1.png" alt="">
                     </div>
                     <h2>Incredibly Responsive</h2>
-                    <p>Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin
-                        chicken ground round.</p>
+                    <p>Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin chicken ground round.</p>
                 </div>
             </div>
-            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms"
-                 style="visibility: hidden; animation-duration: 1000ms; animation-delay: 600ms; animation-name: none;">
+            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                 <div class="single-service">
-                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms"
-                         style="visibility: hidden; animation-duration: 500ms; animation-delay: 600ms; animation-name: none;">
+                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
                         <img src="images/home/icon2.png" alt="">
                     </div>
                     <h2>Superior Typography</h2>
-                    <p>Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket
-                        pancetta venison.</p>
+                    <p>Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison.</p>
                 </div>
             </div>
-            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms"
-                 style="visibility: hidden; animation-duration: 1000ms; animation-delay: 900ms; animation-name: none;">
+            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
                 <div class="single-service">
-                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms"
-                         style="visibility: hidden; animation-duration: 500ms; animation-delay: 900ms; animation-name: none;">
+                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
                         <img src="images/home/icon3.png" alt="">
                     </div>
                     <h2>Swift Page Builder</h2>
-                    <p>Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola
-                        tenderloin bone pork kevin shankle.</p>
+                    <p>Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin shankle.</p>
                 </div>
             </div>
         </div>
@@ -184,21 +162,26 @@
 </section>
 <!--/#services-->
 
-<section id="action" class="responsive">
+<section id="action">
     <div class="vertical-center">
         <div class="container">
             <div class="row">
-                <div class="action take-tour">
-                    <div class="col-sm-7 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms"
-                         style="visibility: hidden; animation-duration: 500ms; animation-delay: 300ms; animation-name: none;">
-                        <h1 class="title">Triangle Corporate Template</h1>
-                        <p>A responsive, retina-ready &amp; wide multipurpose template.</p>
+                <div class="action count">
+                    <div class="col-sm-3 text-center wow bounceIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <h1 class="timer bold" data-to="7000" data-speed="3000" data-from="0"></h1>
+                        <h3>Happy Clients</h3>
                     </div>
-                    <div class="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms"
-                         style="visibility: hidden; animation-duration: 500ms; animation-delay: 300ms; animation-name: none;">
-                        <div class="tour-button">
-                            <a href="#" class="btn btn-common">TAKE THE TOUR</a>
-                        </div>
+                    <div class="col-sm-3 text-center wow bounceIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <h1 class="timer bold" data-to="12" data-speed="3000" data-from="0"></h1>
+                        <h3>Years in Business</h3>
+                    </div>
+                    <div class="col-sm-3 text-center wow bounceIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <h1 class="timer bold" data-to="432" data-speed="3000" data-from="0"></h1>
+                        <h3>Cups of Coffee</h3>
+                    </div>
+                    <div class="col-sm-3 text-center wow bounceIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <h1 class="timer bold" data-to="145" data-speed="3000" data-from="0"></h1>
+                        <h3>Total Project</h3>
                     </div>
                 </div>
             </div>
@@ -207,19 +190,58 @@
 </section>
 <!--/#action-->
 
+<section id="company-information" class="padding-top">
+    <div class="container">
+        <div class="row">
+            <div class="about-us">
+                <div class="col-sm-7 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <h2 class="bold">About Triangle</h2>
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <img src="images/aboutus/6.png" class="img-responsive" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h3 class="top-zero">Who we are</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. <br> <br> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-5 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <div class="our-skills">
+                        <h2 class="bold">Our Skills</h2>
+                        <div class="single-skill">
+                            <h3>Design</h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  data-transition="35">35%</div>
+                            </div>
+                        </div>
+                        <div class="single-skill">
+                            <h3>HTML</h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  data-transition="80">80%</div>
+                            </div>
+                        </div>
+                        <div class="single-skill">
+                            <h3>PHP</h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  data-transition="60">60%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/#company-information-->
+
 <section id="team">
     <div class="container">
         <div class="row">
-            <h1 class="title text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms"
-                style="visibility: hidden; animation-duration: 500ms; animation-delay: 300ms; animation-name: none;">
-                Meet the Team</h1>
-            <p class="text-center wow fadeInDown" data-wow-duration="400ms" data-wow-delay="400ms"
-               style="visibility: hidden; animation-duration: 400ms; animation-delay: 400ms; animation-name: none;">Sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+            <h1 class="title text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">Meet the Team</h1>
+            <p class="text-center wow fadeInDown" data-wow-duration="400ms" data-wow-delay="400ms">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
                 Ut enim ad minim veniam, quis nostrud </p>
-            <div id="team-carousel" class="carousel slide wow fadeIn" data-ride="carousel" data-wow-duration="400ms"
-                 data-wow-delay="400ms"
-                 style="visibility: hidden; animation-duration: 400ms; animation-delay: 400ms; animation-name: none;">
+            <div id="team-carousel" class="carousel slide wow fadeIn" data-ride="carousel" data-wow-duration="400ms" data-wow-delay="400ms">
                 <!-- Indicators -->
                 <ol class="carousel-indicators visible-xs">
                     <li data-target="#team-carousel" data-slide-to="0" class="active"></li>
@@ -416,8 +438,7 @@
                             <a href="#"><img src="images/home/profile1.png" alt=""></a>
                         </div>
                         <div class="media-body">
-                            <blockquote>Nisi commodo bresaola, leberkas venison eiusmod bacon occaecat labore tail.
-                            </blockquote>
+                            <blockquote>Nisi commodo bresaola, leberkas venison eiusmod bacon occaecat labore tail.</blockquote>
                             <h3><a href="#">- Jhon Kalis</a></h3>
                         </div>
                     </div>
@@ -426,9 +447,7 @@
                             <a href="#"><img src="images/home/profile2.png" alt=""></a>
                         </div>
                         <div class="media-body">
-                            <blockquote>Capicola nisi flank sed minim sunt aliqua rump pancetta leberkas venison
-                                eiusmod.
-                            </blockquote>
+                            <blockquote>Capicola nisi flank sed minim sunt aliqua rump pancetta leberkas venison eiusmod.</blockquote>
                             <h3><a href="">- Abraham Josef</a></h3>
                         </div>
                     </div>
@@ -460,12 +479,10 @@
                             <input type="text" name="name" class="form-control" required="required" placeholder="Name">
                         </div>
                         <div class="form-group">
-                            <input type="email" name="email" class="form-control" required="required"
-                                   placeholder="Email Id">
+                            <input type="email" name="email" class="form-control" required="required" placeholder="Email Id">
                         </div>
                         <div class="form-group">
-                            <textarea name="message" id="message" required="required" class="form-control" rows="8"
-                                      placeholder="Your text here"></textarea>
+                            <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Your text here"></textarea>
                         </div>
                         <div class="form-group">
                             <input type="submit" name="submit" class="btn btn-submit" value="Submit">
@@ -475,7 +492,7 @@
             </div>
             <div class="col-sm-12">
                 <div class="copyright-text text-center">
-                    <p>© Your Company 2014. All Rights Reserved.</p>
+                    <p>&copy; Your Company 2014. All Rights Reserved.</p>
                     <p>Designed by <a target="_blank" href="http://www.sucaihuo.com">素材火网</a></p>
                 </div>
             </div>
@@ -484,28 +501,12 @@
 </footer>
 <!--/#footer-->
 
-
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/lightbox.min.js"></script>
 <script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript" src="js/jquery.countTo.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 
-
-<div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div>
-<div id="lightbox" class="lightbox" style="display: none;">
-    <div class="lb-outerContainer">
-        <div class="lb-container"><img class="lb-image" src="">
-            <div class="lb-nav"><a class="lb-prev" href=""></a><a class="lb-next" href=""></a></div>
-            <div class="lb-loader"><a class="lb-cancel"></a></div>
-        </div>
-    </div>
-    <div class="lb-dataContainer">
-        <div class="lb-data">
-            <div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div>
-            <div class="lb-closeContainer"><a class="lb-close"></a></div>
-        </div>
-    </div>
-</div>
 </body>
 </html>
